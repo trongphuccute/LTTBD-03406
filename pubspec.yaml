@@ -50,7 +50,16 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+<<<<<<< HEAD
 flutter:
+=======
+
+flutter:
+  assets:
+      - d:\Profile_app\assets\depzai.png
+
+
+>>>>>>> e449149c5cf7377c5f23bba3fbcec5c1bba8ba20
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -87,6 +96,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+<<<<<<< HEAD
 flutter:
   assets:
     - assets/avatar.png
+=======
+>>>>>>> e449149c5cf7377c5f23bba3fbcec5c1bba8ba20

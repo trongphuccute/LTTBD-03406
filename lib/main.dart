@@ -24,25 +24,28 @@ class HelloWorldPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(title: const Text('Hello World'), centerTitle: true),
+      appBar: AppBar(
+        title: const Text('Hello World'),
+        centerTitle: true,
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             CircleAvatar(
               radius: 50,
-              backgroundImage: AssetImage('assets\avatar.png'),
+              backgroundImage: AssetImage('assets/avatar.png'), // Thêm ảnh vào thư mục assets
             ),
             SizedBox(height: 20),
             Text(
-              'Huỳnh Trọng Phúc - CN2303A',
+              'Nguyen Van A - CNXXX',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 12),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 30),
               child: Text(
-                'Mong muốn và định hướng của em sau khi học xong học phần này đó chính là nắm rỏ được phương pháp học cách lập nên một nền tảng, ứng dụng từ cơ bản đến nâng cao',
+                'Mong muốn và định hướng của Bạn là gì\nsau khi học xong môn học là gì?',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 16),
               ),

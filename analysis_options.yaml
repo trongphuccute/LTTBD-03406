@@ -7,6 +7,12 @@
 
 # The following line activates a set of recommended lints for Flutter apps,
 # packages, and plugins designed to encourage good coding practices.
+<<<<<<< HEAD
+=======
+analyzer:
+  errors:
+    unnecessary_string_escapes: ignore
+>>>>>>> e449149c5cf7377c5f23bba3fbcec5c1bba8ba20
 include: package:flutter_lints/flutter.yaml
 
 linter:
